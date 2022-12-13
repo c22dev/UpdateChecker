@@ -7,6 +7,7 @@ Update Checker is a simple Github update checker that can be implemented in any 
 
 You can use it and edit it without credits (except if you create a new github repo, keep in mind to fork it)
 ### What to keep and what can you remove ?
+You don't need `ContentView.swift`, it's the view of your app so no need to keep it, replace it by your code
 Everything is in `UpdateCheckerApp.swift`. The script is divided into several parts :
 - Basic sturcture (call ContentView() for example)
   - Check if info.plist bundle version is up to date compared to Github (keep)
